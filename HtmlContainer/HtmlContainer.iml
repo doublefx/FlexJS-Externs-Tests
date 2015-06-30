@@ -12,7 +12,7 @@
           <sdk name="nightly_PF16.0_AIR16.0_fr_FR" />
         </dependencies>
         <compiler-options>
-          <option name="additionalOptions" value="-define+=CONFIG::AS,true -define+=CONFIG::JS,false -include-file=js/out/HtmlContainer.js,out\production\HtmlContainer\js\out\HtmlContainer.js" />
+          <option name="additionalOptions" value="-define+=COMPILE::AS3,true -define+=COMPILE::JS,false -include-file=js/out/HtmlContainer.js,out\production\HtmlContainer\js\out\HtmlContainer.js" />
         </compiler-options>
         <packaging-air-desktop />
         <packaging-android />
@@ -28,7 +28,7 @@
           <sdk name="nightly_PF16.0_AIR16.0_fr_FR" />
         </dependencies>
         <compiler-options>
-          <option name="additionalOptions" value="-define+=CONFIG::AS,false -define+=CONFIG::JS,true -js-output-type=FLEXJS -keep-asdoc" />
+          <option name="additionalOptions" value="-define+=COMPILE::AS3,false -define+=COMPILE::JS,true -js-output-type=FLEXJS -keep-asdoc" />
         </compiler-options>
         <packaging-air-desktop />
         <packaging-android />

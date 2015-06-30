@@ -3,7 +3,7 @@ import flash.events.ErrorEvent;
 
 public class HtmlContainer {
 
-    CONFIG::JS
+    COMPILE::JS
     private static function loadScripts(scripts:Array, onLoaded:Function = null):void {
 
         const head:HTMLHeadElement = window.document.head || window.document.getElementsByTagName("head")[0];
@@ -31,7 +31,7 @@ public class HtmlContainer {
         loadNextScript();
     }
 
-    CONFIG::AS
+    COMPILE::AS3
     private static function loadScripts(scripts:Array, onLoaded:Function = null):void {
 
         function loadNextScript():void {
