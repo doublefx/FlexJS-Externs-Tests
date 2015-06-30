@@ -30,7 +30,7 @@ public class Main {
 
         const content:HTMLDivElement = HTMLDivElement(Page.createElement("DIV"));
         const table:HTMLDivElement = tableCreate();
-        const map:HTMLDivElement = createMap(1);
+        const map:HTMLDivElement = createMap(0.80);
 
         $(Page.body).append(content).ready(function():void {
             $(content).css("width", "100%");
@@ -176,8 +176,6 @@ public class Main {
     }
 }
 }
-
-import flash.events.Event;
 
 internal class USMapCoords {
 
