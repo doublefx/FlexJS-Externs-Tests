@@ -24,9 +24,6 @@
             <entry library-id="3047488c-697a-4f0b-acf9-0230020482b3">
               <dependency linkage="External" />
             </entry>
-            <entry library-id="21a51d8f-cc96-4da4-a21e-3452fc7ed95f">
-              <dependency linkage="Test" />
-            </entry>
           </entries>
           <sdk name="nightly_PF16.0_AIR16.0_fr_FR" />
         </dependencies>
@@ -62,16 +59,6 @@
         <properties id="6ec86cd5-0f9f-493b-b371-2e35d0e95b8f" />
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../../asf/flex/falcon/externs/js/out/bin/js.swc!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library type="flex">
-        <properties id="21a51d8f-cc96-4da4-a21e-3452fc7ed95f" />
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../asf/flex/falcon/externs/jasmine/out/bin/jasmine-2.0.swc!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
