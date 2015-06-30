@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="HtmlContainerAS">
+    <configurations>
+      <configuration name="HtmlContainerAS" pure-as="true" output-type="Library" output-file="HtmlContainer.swc" output-folder="$MODULE_DIR$/../out/production/HtmlContainer">
+        <dependencies target-player="16.0">
+          <entries>
+            <entry library-id="6ec86cd5-0f9f-493b-b371-2e35d0e95b8f">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="nightly_PF16.0_AIR16.0_fr_FR" />
+        </dependencies>
+        <compiler-options>
+          <option name="additionalOptions" value="-define+=CONFIG::AS,true -define+=CONFIG::JS,false -include-file=js/out/HtmlContainer.js,out\production\HtmlContainer\js\out\HtmlContainer.js" />
+        </compiler-options>
+        <packaging-air-desktop />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+      <configuration name="HtmlContainerJS" pure-as="true" output-type="Library" output-file="HtmlContainerJS.swc" output-folder="$MODULE_DIR$/../out/production/HtmlContainer">
+        <dependencies target-player="16.0">
+          <entries>
+            <entry library-id="3047488c-697a-4f0b-acf9-0230020482b3">
+              <dependency linkage="External" />
+            </entry>
+            <entry library-id="21a51d8f-cc96-4da4-a21e-3452fc7ed95f">
+              <dependency linkage="Test" />
+            </entry>
+          </entries>
+          <sdk name="nightly_PF16.0_AIR16.0_fr_FR" />
+        </dependencies>
+        <compiler-options>
+          <option name="additionalOptions" value="-define+=CONFIG::AS,false -define+=CONFIG::JS,true -js-output-type=FLEXJS -keep-asdoc" />
+        </compiler-options>
+        <packaging-air-desktop />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="nightly_PF16.0_AIR16.0_fr_FR" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="3047488c-697a-4f0b-acf9-0230020482b3" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../asf/flex/falcon/externs/js/out/bin/js.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="6ec86cd5-0f9f-493b-b371-2e35d0e95b8f" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../asf/flex/falcon/externs/js/out/bin/js.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="21a51d8f-cc96-4da4-a21e-3452fc7ed95f" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../asf/flex/falcon/externs/jasmine/out/bin/jasmine-2.0.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

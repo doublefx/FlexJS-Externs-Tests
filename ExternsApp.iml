@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="ExternsApp">
+    <configurations>
+      <configuration name="ExternsApp" pure-as="true" main-class="Main" output-file="Main.swf" output-folder="$MODULE_DIR$/out/production/ExternsApp" wrapper-template-path="$MODULE_DIR$/html-template">
+        <dependencies target-player="16.0">
+          <entries>
+            <entry library-id="50ec7889-f8ac-4d9d-96eb-3e396989b43f">
+              <dependency linkage="External" />
+            </entry>
+            <entry library-id="6a8dda28-e78e-4371-9740-77d525dec37f">
+              <dependency linkage="External" />
+            </entry>
+            <entry module-name="HtmlContainer" build-configuration-name="HtmlContainerAS">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="nightly_PF16.0_AIR16.0_fr_FR" />
+        </dependencies>
+        <compiler-options>
+          <option name="additionalOptions" value="-js-output-type=FLEXJS" />
+        </compiler-options>
+        <packaging-air-desktop />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="nightly_PF16.0_AIR16.0_fr_FR" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="50ec7889-f8ac-4d9d-96eb-3e396989b43f" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../asf/flex/falcon/externs/js/out/bin/js.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="6a8dda28-e78e-4371-9740-77d525dec37f" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../asf/flex/falcon/externs/jquery/out/bin/jquery-1.9.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="HtmlContainer" exported="" />
+  </component>
+</module>
