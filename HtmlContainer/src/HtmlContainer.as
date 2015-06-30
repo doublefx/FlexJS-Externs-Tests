@@ -1,11 +1,6 @@
 package {
 import flash.events.ErrorEvent;
 
-/*
- <inject_html>
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
- </inject_html>
- */
 public class HtmlContainer {
 
     CONFIG::JS
@@ -49,9 +44,6 @@ public class HtmlContainer {
 
     public static function load(scripts:Array, callBack:Function):void {
         loadScripts(scripts, callBack);
-    }
-
-    public function HtmlContainer() {
     }
 }
 }
